@@ -1,9 +1,11 @@
-# This code is intended to run on an ESP-01 / ESP8266 / ESP32 loaded with Micropython
-# The purpose is to receive illumination information from another Espressif controller
-# over ESP-NOW and use that to control a WS2812b RGB LED string
-#
-# Information to build the complete unit is published on the instructables website here
-# https://www.instructables.com/Remote-WS2812b-LED-Display-for-Control-Over-ESP-NO/
-#
-# This is still in development and does not handle exceptions.
-# Exception handling will be added after a period of testing
+ESPNOWdisplay
+
+This code is intended to run on an ESP-01 / ESP8266 / ESP32 loaded with Micropython
+The purpose is to receive illumination information from another Espressif controller
+over ESP-NOW and use that to control a WS2812b RGB LED string
+
+Information to build the complete unit is published on the instructables website here
+https://www.instructables.com/Remote-WS2812b-LED-Display-for-Control-Over-ESP-NO/
+
+This is still in development and does not handle exceptions.
+Exception handling will be added after a period of testing

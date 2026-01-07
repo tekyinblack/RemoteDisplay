@@ -4,3 +4,6 @@
 #
 # Information to build the complete unit is published on the instructables website here
 # https://www.instructables.com/Remote-WS2812b-LED-Display-for-Control-Over-ESP-NO/
+#
+# This is still in development and does not handle exceptions.
+# Exception handling will be added after a period of testing

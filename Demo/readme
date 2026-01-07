@@ -1,0 +1,15 @@
+Demonstration and example program for the ESPNOWdisplay unit
+
+This has two operational actions, one is to perform a basic lightshow display on the
+display unit. The second action is to read the temperature and humidity from a DHT11/22
+module and display this on the display unit as a practical application.
+
+The two modes alternate roughly 30 seconds of practical display, 10 seconds of light show
+A video of the operation is on the instructables website article with a roughly 10/5 second
+split.
+
+This program has to be loaded onto an ESP01/DHT11/22 module running Micropython and modified to 
+include the MAC address of the display module. The MAC address can be obtained by running the
+mac.py utilty on the display unit before installing the unit in its case. It is recommended that
+the MAC address is recorded and attached to the display unit case with a label for future 
+easy reference
